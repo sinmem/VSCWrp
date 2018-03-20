@@ -19,4 +19,4 @@ Dic = dict(collections.Counter(slist))
 再利用lambda函数选择迭代对象的第二项（单词词频）进行比较排序'''
 dic = sorted(Dic.items(), key=lambda item: item[1], reverse=True)
 for i in range(0, len(dic)):
-    print("第%-5d个  %s" % (i + 1, dic[i][0]))
+    print("the%-5d:  %s" % (i + 1, dic[i][0]))
