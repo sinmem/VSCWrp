@@ -3,7 +3,7 @@ import collections
 # coding=gbk
 # utf-8格式读取文件到str
 f = open(
-    "f:\\Workspace\\VSCode Workspace\\python_test\\text.txt",
+    "f:\\Workspace\\VSCWorkspace\\python_test\\text.txt",
     "r",
     encoding="utf-8")
 str1 = f.read()
